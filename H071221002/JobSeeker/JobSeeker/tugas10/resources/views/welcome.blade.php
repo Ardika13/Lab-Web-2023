@@ -7,11 +7,12 @@
     <!-- Tambahkan link CSS Bootstrap di sini -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+<body class="bg-light d-flex align-items-center justify-content-center vh-100" style="background-color:black">
 
     <div class="text-center">
-        <h1 class="display-4 font-weight-bold mb-4">Welcome to My Website</h1>
-        <p class="lead mb-4">Explore our amazing features!</p>
+        <img src="images/logo-jobs.jpeg" alt="">
+        <h1 class="display-4 font-weight-bold mb-4">Welcome to AR JSeeker</h1>
+        <p class="lead mb-4">Find Your Job in Here!</p>
 
         <a href="{{ route('login') }}" class="btn btn-primary btn-lg">
             Go to Login
